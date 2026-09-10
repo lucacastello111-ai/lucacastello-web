@@ -1,0 +1,4 @@
+build/originales/
+.claude/
+__pycache__/
+*.pyc

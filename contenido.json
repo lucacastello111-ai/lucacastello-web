@@ -1,0 +1,369 @@
+{
+  "_leeme": "Este archivo es el contenido de la web. Edita los textos aqui y corre construir.bat.",
+  "sitio": {
+    "nombre": "Luca Castello",
+    "rol": "Editor / Director",
+    "dominio": "https://lucacastello.com",
+    "descripcion": "Reel de Luca Castello, editor y director. Cine publicitario, largometrajes y contenido generado con IA. Ciudad de México / Buenos Aires.",
+    "email": "lucacastello93@gmail.com",
+    "telefono": "(+54)1159594094",
+    "ubicacion": "Ciudad de México / Buenos Aires"
+  },
+  "menu": [
+    {
+      "nombre": "Reel AI",
+      "archivo": "reel-ai.html"
+    },
+    {
+      "nombre": "Ficción",
+      "archivo": "ficcion.html"
+    },
+    {
+      "nombre": "Publicidad",
+      "archivo": "publicidad.html"
+    },
+    {
+      "nombre": "Sobre mi",
+      "archivo": "sobre-mi.html"
+    }
+  ],
+  "home": {
+    "slides": [
+      "home-2.jpg",
+      "home-4.jpg",
+      "home-1.jpg",
+      "home-3.jpg"
+    ],
+    "menu": [
+      {
+        "nombre": "Ficción",
+        "archivo": "ficcion.html"
+      },
+      {
+        "nombre": "Publicidad",
+        "archivo": "publicidad.html"
+      },
+      {
+        "nombre": "Reel AI",
+        "archivo": "reel-ai.html"
+      },
+      {
+        "nombre": "Sobre mi",
+        "archivo": "sobre-mi.html"
+      }
+    ]
+  },
+  "ficcion": {
+    "titulo": "Ficción",
+    "obras": [
+      {
+        "titulo": "Retratos del Apocalipsis",
+        "rol": "Director / Editor",
+        "texto": "Largometraje de terror escrito, dirigido y producido por Luca Castello, junto a Fabián Forte y Nicanor Loreti. Seleccionado en Mórbido (México), Mar del Plata (Argentina), Fantaspoa (Brasil) y Curtas (España) entre otros. Ganó Mejor Película Internacional en el Medellín Horror Fest (Colombia). Reúne relatos apocalípticos marcados por el fanatismo, la violencia y lo sobrenatural. Actualmente en etapa de distribución internacional.",
+        "youtube": "tvo0VTGSwUU"
+      },
+      {
+        "titulo": "Corporea",
+        "rol": "Editor",
+        "texto": "Largometraje dirigido por Cristian Bidone. Explora los límites entre percepción y realidad a través de una narrativa inquietante y estilizada. Ganó Mejor Largometraje Internacional en el Apulia Horror Festival (Italia). Formó parte de la programación del CIMIFF (México), Terror Córdoba (Argentina) y el ETREUM Horror Film Fest (Colombia).",
+        "youtube": "-l-UDO1hm4k"
+      },
+      {
+        "titulo": "La Piel No Es Un Límite",
+        "rol": "Director / Editor",
+        "texto": "Cortometraje estrenado en la competencia internacional del Festival Macabro Finch, en la ciudad de México. Participó en la competencia de veinte Festivales Internacionales. Ganador del premio a mejor cortometraje Internacional en el Festival 7eme Aaaargh de Bélgica.",
+        "youtube": "VQoaKLjpS24"
+      },
+      {
+        "titulo": "El Amigo Visible",
+        "rol": "Editor",
+        "texto": "Largometraje dirigido por Cristian Bidone. Seleccionada en más de 45 festivales nacionales e internacionales. Ganadora de Mejor película Internacional en el \"Abbey Film Festival\", Mejor Thriller en \"Accord Cine Fest\" y Mejor Film de Horror en \"Dark Soul Fest\".",
+        "youtube": "aB-poZMg1K8"
+      },
+      {
+        "titulo": "El Hombre de la Luna",
+        "rol": "Editor",
+        "texto": "Largometraje dirigido por Rodrigo Perez Green. Protagonizado por los hermanos Manuel y Rodrigo De La Serna. Actualmente se encuentra en Post-Producción.",
+        "youtube": "HSEX3iPD9PM"
+      },
+      {
+        "titulo": "Román",
+        "rol": "Editor",
+        "texto": "Largometraje dirigido por Majo Staffolani, estrenada en la competencia latinoamericana del “BAFICI”. Proyectada en la competencia de más de 40 festivales. Premio del Público a la Mejor Película en el 33º BFI FLARE London LGBTQ+ Film Festival.",
+        "youtube": "b_QnMcNnVfM"
+      },
+      {
+        "titulo": "La Amante",
+        "rol": "Director /Editor",
+        "texto": "Cortometraje seleccionado en siete festivales internacionales, entre ellos el Festival Diorama de la India, el Penitente Film Fest de Colombia y el Festival The Paus Premieres de Reino Unido.",
+        "youtube": "21JYPJDXA1I"
+      },
+      {
+        "titulo": "Golondrinas",
+        "rol": "Editor de Trailer",
+        "texto": "Película dirigida por Mariano Mouriño, producida pos SM CINE. Ganadora del concurso \"Opera Prima\" del INCAA y ganadora del premio principal en el Festival Construir Cine.",
+        "youtube": "JB52gbVbgmY"
+      },
+      {
+        "titulo": "Una noche de amor",
+        "rol": "Compositor de VFX",
+        "texto": "Película producida por Patagonik Film Group. Efectos visuales a cargo de la productora \"SinSistema\".",
+        "youtube": "lPJhrGVmaMg"
+      }
+    ],
+    "fondo": "fondo-ficcion.jpg"
+  },
+  "publicidad": {
+    "titulo": "Cine\nPublicitario",
+    "obras": [
+      {
+        "titulo": "Visa Infinite \"Con Visa, el invierno se vive así\"",
+        "rol": "AI Director",
+        "texto": "Agencia - VML\nProductora - La Doble",
+        "mp4": "assets/video/visa-infinite.mp4",
+        "poster": "assets/video/visa-infinite.jpg",
+        "youtube": ""
+      },
+      {
+        "titulo": "Topline \"Liberá tu frescura\"",
+        "rol": "Editor",
+        "texto": "Agencia - VMLY&R\nProductora - Virgen Films\nDirección - Pucho Mentasti",
+        "youtube": "q-aGIED6CLE"
+      },
+      {
+        "titulo": "Netflix \"El Amor después del Amor\"",
+        "rol": "Editor - Teaser",
+        "texto": "Productora - Ufilms\nDirección - Felipe Gomez Aparicio",
+        "youtube": "NmIr607Kobc"
+      },
+      {
+        "titulo": "Saladix \"Mensaje del futuro\"",
+        "rol": "Editor",
+        "texto": "Agencia - Don\nProductora - Virgen Films\nDirección - Julián Montesano",
+        "youtube": "uSh6HMQmQ-g"
+      },
+      {
+        "titulo": "Philco \"Te simpliphilca la vida\"",
+        "rol": "Editor",
+        "texto": "Agencia - Don\nProductora - Oruga Films\nDirección - Federico Russo\nPremios: Diente de Oro 2022, Lapiz de Oro 2022, Martin Fierro 2022",
+        "youtube": "L9spWlTatO4"
+      },
+      {
+        "titulo": "La Lechera \"El Antojo Infinito\"",
+        "rol": "Editor",
+        "texto": "Agencia - One Table Nestlé\nProductora - Dorsia\nDirección - Santa Lemos",
+        "youtube": "gVURDJgiSK0"
+      },
+      {
+        "titulo": "Mercadopago \"Crecer tu dinero\"",
+        "rol": "Editor",
+        "texto": "Agencia - Gut México\nProductora - Oruga Cine\nDirección - Fede Russo",
+        "youtube": "nujBvDCVQXQ"
+      },
+      {
+        "titulo": "Honda \"Khea x Navi\"",
+        "rol": "Editor",
+        "texto": "Agencia - Almacén\nProductora - Roomate\nDirección - Martin Seipel",
+        "youtube": "G08ckxRWm0w"
+      },
+      {
+        "titulo": "Toyota \"El Sueño Méxicano\"",
+        "rol": "Editor",
+        "texto": "Productora - Oruga\nDirección - Gonzalo San",
+        "youtube": "i-99Aai1kpY"
+      },
+      {
+        "titulo": "McCain \"FoodService Solutions\"",
+        "rol": "Editor",
+        "texto": "Productora - Oruga Films\nDirección - Martin Pimentel - Gonzalo San",
+        "youtube": "pZYIUBkI-Y0"
+      },
+      {
+        "titulo": "Cereal Mix \"Sin Harina\"",
+        "rol": "Editor",
+        "texto": "Productora - Casta Diva\nDirección - Radames",
+        "youtube": "GAD_zXrs_9U"
+      },
+      {
+        "titulo": "Atma \"Paulina no cocina\"",
+        "rol": "Editor",
+        "texto": "Agencia - Anita y Vega\nProductora - Landia\nDirección - Agustín Carbonere / Sofía Jamardo",
+        "youtube": "n5atNxF-nJ4"
+      },
+      {
+        "titulo": "Nescafe \"Crea tu Mundo\"",
+        "rol": "Editor",
+        "texto": "Agencia - One Table Nestlé\nProductora - Dorsia\nDirección - Tomás Posse - Pablo Tanno",
+        "youtube": "vatWuQeMU_s"
+      },
+      {
+        "titulo": "Arcor \"Blanco y Negro - Volvieron\"",
+        "rol": "Editor",
+        "texto": "Productora - Casta Diva\nDirección - Radames",
+        "youtube": "e4JFXLLqOaQ"
+      },
+      {
+        "titulo": "Garnier \"Nuevo Super UV\"",
+        "rol": "Editor",
+        "texto": "Productora - Dorsia\nDirección - Patrick Knot",
+        "youtube": "LSPmvhxTkI4"
+      },
+      {
+        "titulo": "H&S \"Limpieza y Revitalización\"",
+        "rol": "Editor",
+        "texto": "Agencia - Grey\nProductora - Casta Diva\nDirección - Erez Sabag",
+        "youtube": "rSVXSuFEShM"
+      },
+      {
+        "titulo": "BBVA \"Tu medico particular\"",
+        "rol": "Editor",
+        "texto": "Agencia - Teran TBWA\nProductora - Dorsia\nDirección - Pablo Tanno",
+        "youtube": "JFbyWCOH_VI"
+      },
+      {
+        "titulo": "Little Caesars \"Creamy Cu4atro\"",
+        "rol": "Editor",
+        "texto": "Productora - Mama Hungara\nDirección - Santi Franco",
+        "youtube": "QM7Uw_RwH5c"
+      },
+      {
+        "titulo": "Fargo \"La Camiseta para soñar\"",
+        "rol": "Editor",
+        "texto": "Agencia - Ogilvy\nProductora - Oruga Films\nDirección - Federico Russo",
+        "youtube": "e5jKfngQFFs"
+      },
+      {
+        "titulo": "Netflix \"Avatar Fuego\"",
+        "rol": "Editor",
+        "texto": "Productora - Ufilms\nDirección - Martín Levi",
+        "youtube": "Gbf73zLb9pM"
+      },
+      {
+        "titulo": "Avon \"Power Stay\"",
+        "rol": "Editor",
+        "texto": "Agencia - Wunderman Thompson\nProductora - LCDAL\nDirección - Celina Eslava",
+        "youtube": "P4CjHrtL17g"
+      },
+      {
+        "titulo": "Easy \"Viví tu casa como quieras\"",
+        "rol": "Editor",
+        "texto": "Agencia - Don\nProductora - Oruga Cine\nDirección - Martín Levi",
+        "youtube": "ZCXl88V6NaQ"
+      },
+      {
+        "titulo": "Castrol \"Capos del Capot\"",
+        "rol": "Editor",
+        "texto": "Agencia - GUT\nProductora - Oruga Films\nDirección - Seba Sigal",
+        "youtube": "kqREfTKKdZM"
+      },
+      {
+        "titulo": "La Serenisima \"Aliados\"",
+        "rol": "Editor",
+        "texto": "Agencia - CaveroLanis\nProductora - Tresbien\nDirección - Nico Mazzi",
+        "youtube": "mW5gF-zl4DU"
+      },
+      {
+        "titulo": "Posnet \"Socio\"",
+        "rol": "Editor",
+        "texto": "Agencia - Don\nProductora - Oruga Films\nDirección - Federico Russo",
+        "youtube": "Qc1-k-qPQOY"
+      },
+      {
+        "titulo": "Arcor \"Simple Calcio\"",
+        "rol": "Editor",
+        "texto": "Agencia - VMLY&R\nProductora - Oruga Films\nDirección - Celina Eslava",
+        "youtube": "wBaByHblpY8"
+      },
+      {
+        "titulo": "HBO \"The White Lotus\"",
+        "rol": "Editor",
+        "texto": "Productora - Virgen Films\nDirección - Diego Peskins / Alexan Sarikamichian",
+        "youtube": "ws9RydLCqUU"
+      },
+      {
+        "titulo": "Mabe \"Practicidad\"",
+        "rol": "Editor",
+        "texto": "Agencia - Sparkling\nProductora - Oruga Cine\nDirección - Federico Russo",
+        "youtube": "ByaxRHXhing"
+      },
+      {
+        "titulo": "La Serenisima \"Queso Aliado\"",
+        "rol": "Editor",
+        "texto": "Agencia - CaveroLanis\nProductora - TresBien\nDirección - Nico Mazzi",
+        "youtube": "7fCqLHQZEYY"
+      },
+      {
+        "titulo": "Mercadolibre \"Vuelta a Clases\"",
+        "rol": "Editor",
+        "texto": "Agencia - Gut\nProductora - Oruga Films\nDirección - Martín Levi / Carmín Aissen",
+        "youtube": "ihSjIzCcx_k"
+      },
+      {
+        "titulo": "Sika \"Invierno Aguafiestas\"",
+        "rol": "Editor",
+        "texto": "Agencia - La Familia\nProductora - TresBien\nDirección - Andrés Serrano",
+        "youtube": "aIqmOQhk1wM"
+      },
+      {
+        "titulo": "Min. Turismo \"Vuelve Previaje\"",
+        "rol": "Editor",
+        "texto": "Agencia - Don\nCliente - Ministerio de Turismo Argentina",
+        "youtube": "hyOA7Dv5-k4"
+      },
+      {
+        "titulo": "Amarok \"Desafíos\"",
+        "rol": "Editor",
+        "texto": "Agencia - Voltage\nProductora - Landia\nDirección - Agustín Carbonere / Sofía Jamardo",
+        "youtube": "m65UbbKz3Gw"
+      },
+      {
+        "titulo": "Siglo 21 \"Elegí lo que querés ser\"",
+        "rol": "Editor",
+        "texto": "Agencia - Don\nProductora - Oruga Films\nDirección - Sebastial Sigal",
+        "youtube": "RbVNiOBwM3g"
+      },
+      {
+        "titulo": "Mastercard \"Contactless VAR\"",
+        "rol": "Editor",
+        "texto": "Agencia - Mercado Mccann\nProductora - Virgen Films",
+        "youtube": "BbFLOVNIOK0"
+      },
+      {
+        "titulo": "Ladysoft \"Puertas\"",
+        "rol": "Editor",
+        "texto": "Agencia - VMLY&R\nProductora - Virgen Films\nDirección - Celina Eslava",
+        "youtube": "2miO0XhLXU0"
+      }
+    ],
+    "fondo": "fondo-publicidad.jpg"
+  },
+  "reel-ai": {
+    "titulo": "Reel AI",
+    "obras": [
+      {
+        "titulo": "Reel Gélido AI 2026",
+        "rol": "",
+        "texto": "",
+        "mp4": "assets/video/reel-gelido-ai-2026.mp4",
+        "poster": "assets/video/reel-gelido-ai-2026.jpg",
+        "youtube": ""
+      }
+    ],
+    "fondo": "fondo-ficcion.jpg",
+    "info": {
+      "titulo": "Gélido AI",
+      "rol": "Estudio creativo de IA · Buenos Aires · Ciudad de México · Barcelona",
+      "texto": "Hoy mi trabajo con inteligencia artificial pasa por Gélido, una productora independiente nativa de IA con sedes en Argentina, México y España. Producimos las ideas que antes se quedaban en el deck.\nCombinamos generación de imagen con IA, criterio cinematográfico, dirección visual, montaje, sonido y producción ejecutiva para convertir ideas en piezas listas para campaña: spots completos, maquetas y animatics, videoclips y contenido para redes.\nDirigimos los modelos frame a frame, con intención: cada plano se diseña, se aprueba y se anima con control de cámara, timing y continuidad. El resultado es una pieza dirigida, no generada al azar.\nTrabajamos para marcas, agencias y artistas como Visa, Tupperware, Fiserv, MG, Domino's y Life Seguros. No reemplazamos al equipo creativo, lo amplificamos: las herramientas cambiaron, pero la obsesión por las imágenes que duran sigue siendo la misma.",
+      "link": {
+        "texto": "gelidoai.com",
+        "url": "https://gelidoai.com"
+      }
+    }
+  },
+  "sobre-mi": {
+    "titulo": "Sobre mi",
+    "foto": "retrato.jpg",
+    "texto": "Nací en la Patagonia Argentina. Hoy vivo y trabajo en Ciudad de México.\nMi pasión por narrar historias me llevó primero al montaje y, con el tiempo, a la dirección de mis propios proyectos.\nComo parte de mi recorrido como director, codirigí Retratos del Apocalipsis, mi primer largometraje. La película participó en festivales como Mar del Plata, Mórbido Film Fest, Fantaspoa y Buenos Aires Rojo Sangre, donde recibió distintos reconocimientos. Previamente, había dirigido tres cortometrajes, con los que fui construyendo una búsqueda autoral dentro del género fantástico y de terror.\nComo montajista, edité siete largometrajes de ficción. Entre ellos destaco Román, de Majo Staffolani, y El Amigo Visible, de Cristian Bidone, ambas seleccionadas en más de 30 festivales internacionales y ganadoras de numerosos premios. También trabajo en edición publicitaria, con proyectos como Liberá tu Frescura, de Topline; El amor después del amor, de Netflix; y Te simpliphilca la vida, de Philco, ganadora del Lápiz de Oro, el Jerry de Oro y el Martín Fierro a la Mejor Publicidad.\nActualmente me especializo en creación audiovisual con inteligencia artificial, integrando dirección, montaje, diseño visual y nuevos flujos de producción para cine, publicidad y contenidos digitales. En paralelo, me encuentro desarrollando mi próximo largometraje de terror.",
+    "fondo": "fondo-sobremi.jpg"
+  }
+}
