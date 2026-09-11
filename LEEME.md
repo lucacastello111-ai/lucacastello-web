@@ -62,6 +62,17 @@ python build/servidor.py
 ```
 y abrir http://localhost:8765
 
-## Publicar
+## Publicar (ya está online)
 
-Pendiente de definir. Opción recomendada: Cloudflare Pages o Netlify (gratis) y apuntar el dominio desde IONOS.
+El sitio vive en **GitHub Pages**: repo `lucacastello111-ai/lucacastello-web` (rama `main`), con dominio propio `lucacastello.com` y HTTPS obligatorio (certificado automático de GitHub, se renueva solo).
+
+Para publicar un cambio:
+```
+python build/construir.py
+git add -A
+git commit -m "lo que cambió"
+git push
+```
+En menos de un minuto está en https://lucacastello.com.
+
+DNS en IONOS (lucacastello.com): registro A `@` → 185.199.108.153 (GitHub) y CNAME `www` → `lucacastello111-ai.github.io`. Los registros de mail (MX, SPF, DKIM, DMARC, autodiscover) no se tocaron.
