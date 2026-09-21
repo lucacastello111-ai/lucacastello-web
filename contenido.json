@@ -77,7 +77,8 @@
         "rol": "Director / Editor",
         "texto": "Largometraje de terror escrito, dirigido y producido por Luca Castello, junto a Fabián Forte y Nicanor Loreti. Seleccionado en Mórbido (México), Mar del Plata (Argentina), Fantaspoa (Brasil) y Curtas (España) entre otros. Ganó Mejor Película Internacional en el Medellín Horror Fest (Colombia). Reúne relatos apocalípticos marcados por el fanatismo, la violencia y lo sobrenatural. Actualmente en etapa de distribución internacional.",
         "youtube": "0_RjrrUnAbo",
-        "texto_en": "Horror feature written, directed and produced by Luca Castello together with Fabián Forte and Nicanor Loreti. Official selection at Mórbido (Mexico), Mar del Plata (Argentina), Fantaspoa (Brazil) and Curtas (Spain), among others, and winner of Best International Feature at the Medellín Horror Fest (Colombia). An anthology of apocalyptic stories driven by fanaticism, violence and the supernatural. Currently in international distribution."
+        "texto_en": "Horror feature written, directed and produced by Luca Castello together with Fabián Forte and Nicanor Loreti. Official selection at Mórbido (Mexico), Mar del Plata (Argentina), Fantaspoa (Brazil) and Curtas (Spain), among others, and winner of Best International Feature at the Medellín Horror Fest (Colombia). An anthology of apocalyptic stories driven by fanaticism, violence and the supernatural. Currently in international distribution.",
+        "poster": "assets/img/caratulas/retratos-del-apocalipsis.jpg"
       },
       {
         "titulo": "Corporea",
@@ -95,10 +96,11 @@
       },
       {
         "titulo": "El Ritual del Nahual",
-        "rol": "Supervisor de Edición",
+        "rol": "Supervisor de Edición y Tráiler",
         "texto": "Largometraje de terror dirigido por Carlos Matienzo Serment. Tuvo su estreno internacional en el Festival Internacional de Cine de Rotterdam y formó parte del Blood Window Showcase en el Marché du Film de Cannes. Se estrenó en más de 500 salas de México en mayo de 2026.",
         "youtube": "960_Z1_Ds1c",
-        "texto_en": "Horror feature directed by Carlos Matienzo Serment. It had its international premiere at the International Film Festival Rotterdam and was part of the Blood Window Showcase at the Cannes Marché du Film. Released in more than 500 theaters across Mexico in May 2026."
+        "texto_en": "Horror feature directed by Carlos Matienzo Serment. It had its international premiere at the International Film Festival Rotterdam and was part of the Blood Window Showcase at the Cannes Marché du Film. Released in more than 500 theaters across Mexico in May 2026.",
+        "poster": "assets/img/caratulas/el-ritual-del-nahual.jpg"
       },
       {
         "titulo": "El Amigo Visible",
@@ -166,9 +168,9 @@
       {
         "titulo": "MG \"Hg / Mg\"",
         "rol": "Artista AI",
-        "texto": "Agencia - Publicis\nProductora - Dorsia",
+        "texto": "Agencia - Publicis\nProductora - Dorsia\nDirección - Pablo Tanno",
         "mp4": "assets/video/mg-hg-mg.mp4",
-        "poster": "assets/video/mg-hg-mg-v2.jpg",
+        "poster": "assets/video/mg-hg-mg-v3.jpg",
         "youtube": ""
       },
       {
@@ -180,7 +182,7 @@
       {
         "titulo": "Domino's \"Cuando se abre una Domino's empieza el fútbol\"",
         "rol": "Artista AI",
-        "texto": "Agencia - Sra. Rushmore",
+        "texto": "Agencia - Sra. Rushmore\nProductora - Dorsia\nDirección - Santa Lemos",
         "mp4": "assets/video/dominos-mundial.mp4",
         "poster": "assets/video/dominos-mundial.jpg",
         "youtube": ""

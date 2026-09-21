@@ -44,6 +44,7 @@ ROL_EN = {
     "Director / Editor": "Director / Editor",
     "Director /Editor": "Director / Editor",
     "Supervisor de Edición": "Supervising Editor",
+    "Supervisor de Edición y Tráiler": "Supervising Editor & Trailer Editor",
     "Editor de Trailer": "Trailer Editor",
     "Compositor de VFX": "VFX Compositor",
     "Editor - Teaser": "Teaser Editor",
@@ -109,7 +110,8 @@ def video(obra, lang, cargar="lazy"):
     if obra.get("mp4"):
         fuente, caratula = f'data-mp4="{e(obra["mp4"])}"', obra["poster"]
     else:
-        fuente, caratula = f'data-youtube="{e(obra["youtube"])}"', thumb(obra["youtube"])
+        # "poster" opcional: carátula elegida a mano en vez de la miniatura de YouTube
+        fuente, caratula = f'data-youtube="{e(obra["youtube"])}"', obra.get("poster") or thumb(obra["youtube"])
     return (
         f'<div class="video" role="button" tabindex="0" {fuente} '
         f'data-titulo="{e(titulo)}" aria-label="{UI[lang]["play"]} {e(titulo or "video")}">'
