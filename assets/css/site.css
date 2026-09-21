@@ -180,7 +180,7 @@ a.pie__item:hover{opacity:.7}
 .portada .idioma{position:absolute;top:24px;right:30px;z-index:3;margin:0;padding:0}
 
 /* ---------- texto corto arriba del reel ---------- */
-.reel__intro{max-width:640px;margin:0 auto 30px;text-align:center;font-family:"Cairo",Arial,sans-serif;
+.reel__intro{margin:0 0 30px;padding:28px 40px;background:var(--panel-ficcion);text-align:center;font-family:"Cairo",Arial,sans-serif;
   font-size:13px;line-height:21px;letter-spacing:.6px;color:rgba(255,255,255,.85)}
 .reel__intro p{margin:0}
 
@@ -188,6 +188,6 @@ a.pie__item:hover{opacity:.7}
   .nav .contenedor{flex-direction:column;gap:6px}
   .idioma{margin:0;padding:6px 0 0}
   .portada .idioma{top:16px;right:18px}
-  .reel__intro{padding:0 20px}
+  .reel__intro{padding:22px}
 }
 .nav .idioma a{padding:10px 4px}

@@ -217,12 +217,15 @@ def pagina(archivo_es, lang, titulo, cuerpo, descripcion=None, imagen_og="assets
             f'<link rel="alternate" hreflang="x-default" href="{e(url_de(archivo_es))}">\n'
         )
     locale = "es_AR" if lang == "es" else "en_US"
+    auto = ""
+    if archivo_es in EN:
+        auto = AUTO_JS.replace("__ES__", archivo_es).replace("__EN__", EN[archivo_es]).replace("__YO__", lang) + chr(10)
     doc = f"""<!DOCTYPE html>
 <html lang="{lang}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{e(titulo_full)}</title>
+{auto}<title>{e(titulo_full)}</title>
 <meta name="description" content="{e(desc)}">
 <meta name="keywords" content="Luca Castello, editor, montajista, director, Argentina, México, publicidad, películas, cine, film editor, commercials">
 <link rel="canonical" href="{e(url)}">
@@ -250,6 +253,23 @@ def pagina(archivo_es, lang, titulo, cuerpo, descripcion=None, imagen_og="assets
         f.write(doc)
     return url
 
+
+# Idioma automatico (va en el <head>, antes de dibujar la pagina):
+# español si el dispositivo esta en un pais hispanohablante (por zona horaria) o si el navegador
+# esta en español; si no, inglés. Si la persona eligio ES/EN a mano, se respeta esa eleccion.
+# Los buscadores y las vistas previas de links no se redirigen.
+AUTO_JS = (
+    '<script>(function(){var par={es:"__ES__",en:"__EN__"},yo="__YO__",k="lcIdioma";'
+    'document.addEventListener("click",function(e){var a=e.target.closest&&e.target.closest(".idioma a");'
+    'if(a){try{localStorage.setItem(k,a.lang)}catch(x){}}});'
+    'if(/bot|crawl|spider|slurp|lighthouse|facebookexternalhit|whatsapp|telegram|preview/i.test(navigator.userAgent))return;'
+    'var g=null;try{g=localStorage.getItem(k)}catch(x){}'
+    'if(g!=="es"&&g!=="en"){var tz="";try{tz=Intl.DateTimeFormat().resolvedOptions().timeZone||""}catch(x){}'
+    'var n=((navigator.languages&&navigator.languages[0])||navigator.language||"").toLowerCase();'
+    r'var h=/^(America\/(Argentina\/.+|Buenos_Aires|Cordoba|Catamarca|Jujuy|Mendoza|Mexico_City|Cancun|Merida|Monterrey|Matamoros|Chihuahua|Ciudad_Juarez|Ojinaga|Mazatlan|Bahia_Banderas|Hermosillo|Tijuana|Bogota|Lima|Santiago|Punta_Arenas|Caracas|Guayaquil|La_Paz|Asuncion|Montevideo|Costa_Rica|Panama|Guatemala|El_Salvador|Tegucigalpa|Managua|Havana|Santo_Domingo|Puerto_Rico)|Europe\/Madrid|Africa\/(Ceuta|Malabo)|Atlantic\/Canary|Pacific\/(Easter|Galapagos))$/;'
+    'g=(h.test(tz)||n.indexOf("es")===0)?"es":"en"}'
+    'if(g!==yo)location.replace(par[g]+location.search+location.hash)})();</script>'
+)
 
 # titulos de pestaña y descripciones de cada pagina
 META = {
