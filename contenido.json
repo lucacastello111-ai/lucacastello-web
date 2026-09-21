@@ -11,6 +11,10 @@
   },
   "menu": [
     {
+      "nombre": "Inicio",
+      "archivo": "index.html"
+    },
+    {
       "nombre": "Reel AI",
       "archivo": "reel-ai.html"
     },
@@ -60,7 +64,7 @@
         "titulo": "Retratos del Apocalipsis",
         "rol": "Director / Editor",
         "texto": "Largometraje de terror escrito, dirigido y producido por Luca Castello, junto a Fabián Forte y Nicanor Loreti. Seleccionado en Mórbido (México), Mar del Plata (Argentina), Fantaspoa (Brasil) y Curtas (España) entre otros. Ganó Mejor Película Internacional en el Medellín Horror Fest (Colombia). Reúne relatos apocalípticos marcados por el fanatismo, la violencia y lo sobrenatural. Actualmente en etapa de distribución internacional.",
-        "youtube": "tvo0VTGSwUU"
+        "youtube": "0_RjrrUnAbo"
       },
       {
         "titulo": "Corporea",
@@ -75,6 +79,12 @@
         "youtube": "VQoaKLjpS24"
       },
       {
+        "titulo": "El Ritual del Nahual",
+        "rol": "Supervisor de Edición",
+        "texto": "Largometraje de terror dirigido por Carlos Matienzo Serment. Tuvo su estreno internacional en el Festival Internacional de Cine de Rotterdam y formó parte del Blood Window Showcase en el Marché du Film de Cannes. Se estrenó en más de 500 salas de México en mayo de 2026.",
+        "youtube": "960_Z1_Ds1c"
+      },
+      {
         "titulo": "El Amigo Visible",
         "rol": "Editor",
         "texto": "Largometraje dirigido por Cristian Bidone. Seleccionada en más de 45 festivales nacionales e internacionales. Ganadora de Mejor película Internacional en el \"Abbey Film Festival\", Mejor Thriller en \"Accord Cine Fest\" y Mejor Film de Horror en \"Dark Soul Fest\".",
@@ -83,7 +93,7 @@
       {
         "titulo": "El Hombre de la Luna",
         "rol": "Editor",
-        "texto": "Largometraje dirigido por Rodrigo Perez Green. Protagonizado por los hermanos Manuel y Rodrigo De La Serna. Actualmente se encuentra en Post-Producción.",
+        "texto": "Largometraje dirigido por Rodrigo Pérez Green, protagonizado por los hermanos Manuel y Rodrigo De La Serna. Seleccionado en la Competencia Argentina del 40° Festival Internacional de Cine de Mar del Plata (2025).",
         "youtube": "HSEX3iPD9PM"
       },
       {
@@ -131,10 +141,26 @@
         "youtube": "q-aGIED6CLE"
       },
       {
+        "titulo": "MG \"Hg / Mg\"",
+        "rol": "Artista AI",
+        "texto": "Agencia - Publicis\nProductora - Dorsia",
+        "mp4": "assets/video/mg-hg-mg.mp4",
+        "poster": "assets/video/mg-hg-mg.jpg",
+        "youtube": ""
+      },
+      {
         "titulo": "Netflix \"El Amor después del Amor\"",
         "rol": "Editor - Teaser",
         "texto": "Productora - Ufilms\nDirección - Felipe Gomez Aparicio",
         "youtube": "NmIr607Kobc"
+      },
+      {
+        "titulo": "Domino's \"Cuando se abre una Domino's empieza el fútbol\"",
+        "rol": "Artista AI",
+        "texto": "Agencia - Sra. Rushmore",
+        "mp4": "assets/video/dominos-mundial.mp4",
+        "poster": "assets/video/dominos-mundial.jpg",
+        "youtube": ""
       },
       {
         "titulo": "Saladix \"Mensaje del futuro\"",
@@ -363,7 +389,7 @@
   "sobre-mi": {
     "titulo": "Sobre mi",
     "foto": "retrato.jpg",
-    "texto": "Nací en la Patagonia Argentina. Hoy vivo y trabajo en Ciudad de México.\nMi pasión por narrar historias me llevó primero al montaje y, con el tiempo, a la dirección de mis propios proyectos.\nComo parte de mi recorrido como director, codirigí Retratos del Apocalipsis, mi primer largometraje. La película participó en festivales como Mar del Plata, Mórbido Film Fest, Fantaspoa y Buenos Aires Rojo Sangre, donde recibió distintos reconocimientos. Previamente, había dirigido tres cortometrajes, con los que fui construyendo una búsqueda autoral dentro del género fantástico y de terror.\nComo montajista, edité siete largometrajes de ficción. Entre ellos destaco Román, de Majo Staffolani, y El Amigo Visible, de Cristian Bidone, ambas seleccionadas en más de 30 festivales internacionales y ganadoras de numerosos premios. También trabajo en edición publicitaria, con proyectos como Liberá tu Frescura, de Topline; El amor después del amor, de Netflix; y Te simpliphilca la vida, de Philco, ganadora del Lápiz de Oro, el Jerry de Oro y el Martín Fierro a la Mejor Publicidad.\nActualmente me especializo en creación audiovisual con inteligencia artificial, integrando dirección, montaje, diseño visual y nuevos flujos de producción para cine, publicidad y contenidos digitales. En paralelo, me encuentro desarrollando mi próximo largometraje de terror.",
+    "texto": "Nací en la Patagonia Argentina. Hoy vivo y trabajo en Ciudad de México.\nMi pasión por narrar historias me llevó primero al montaje y, con el tiempo, a la dirección de mis propios proyectos.\nComo parte de mi recorrido como director, codirigí Retratos del Apocalipsis, mi primer largometraje. La película participó en festivales como Mar del Plata, Mórbido Film Fest, Fantaspoa y Buenos Aires Rojo Sangre, donde recibió distintos reconocimientos. Previamente, había dirigido tres cortometrajes, con los que fui construyendo una búsqueda autoral dentro del género fantástico y de terror.\nComo montajista, edité siete largometrajes de ficción. Entre ellos destaco Román, de Majo Staffolani, y El Amigo Visible, de Cristian Bidone, ambas seleccionadas en más de 30 festivales internacionales y ganadoras de numerosos premios. También trabajo en edición publicitaria, con proyectos como Liberá tu Frescura, de Topline; El amor después del amor, de Netflix; y Te simpliphilca la vida, de Philco, ganadora del Lápiz de Oro, el Jerry de Oro y el Martín Fierro a la Mejor Publicidad.\nActualmente me especializo en creación audiovisual con inteligencia artificial, integrando dirección, montaje, diseño visual y nuevos flujos de producción para cine, publicidad y contenidos digitales. Ese trabajo lo llevo adelante en Gélido AI, un estudio creativo de inteligencia artificial con sedes en Buenos Aires, Ciudad de México y Barcelona, con el que realizamos piezas para marcas como Visa, MG, Domino's y Fiserv.\nEn paralelo desarrollo AfterByte, mi próximo largometraje de terror. El proyecto ganó los premios de coproducción con Colombia y con España en el laboratorio de proyectos Fantasolab de Bogotá, y el premio Ventana Sur en la residencia de guion Feratum.",
     "fondo": "fondo-sobremi.jpg"
   }
 }
