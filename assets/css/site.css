@@ -98,7 +98,7 @@ h1,h2,h3,p{margin:0;font-weight:400}
 .video.activo img,.video.activo .video__play{display:none}
 
 /* ---------- sobre mi ---------- */
-.sobre{display:grid;grid-template-columns:385px 460px;justify-content:space-between;align-items:start;
+.sobre{display:grid;grid-template-columns:385px 460px;justify-content:space-between;align-items:center;
   padding:43px 20px 43px 58px}
 .sobre__foto{width:385px;height:auto;filter:grayscale(1)}
 .sobre__texto{font-family:"Cairo",Arial,sans-serif;font-size:12px;line-height:19.2px;letter-spacing:.6px}
@@ -128,8 +128,8 @@ a.pie__item:hover{opacity:.7}
 .portada__rol{font-family:var(--titulo);font-weight:100;font-size:16px;line-height:22.4px;letter-spacing:4px;margin-top:15px}
 .portada__links{display:flex;flex-wrap:wrap;justify-content:center;margin-top:45px}
 .portada__links a{
-  display:block;padding:10px 30px;background:rgba(255,255,255,.03);
-  font-family:var(--titulo);font-weight:100;font-size:12px;line-height:15.6px;letter-spacing:3.6px;
+  display:block;padding:10px 30px;background:rgba(255,255,255,.06);color:#fff;
+  font-family:var(--titulo);font-weight:400;font-size:12px;line-height:15.6px;letter-spacing:3.4px;
   text-transform:uppercase;transition:background .3s ease;
 }
 .portada__links a:hover{background:rgba(255,255,255,.12)}
