@@ -7,28 +7,36 @@
     "descripcion": "Reel de Luca Castello, editor y director. Cine publicitario, largometrajes y contenido generado con IA. Ciudad de México / Buenos Aires.",
     "email": "lucacastello93@gmail.com",
     "telefono": "(+54)1159594094",
-    "ubicacion": "Ciudad de México / Buenos Aires"
+    "ubicacion": "Ciudad de México / Buenos Aires",
+    "rol_en": "Editor / Director",
+    "descripcion_en": "Luca Castello, film editor and director. Commercials, feature films and AI-driven work. Mexico City / Buenos Aires.",
+    "ubicacion_en": "Mexico City / Buenos Aires"
   },
   "menu": [
     {
       "nombre": "Inicio",
-      "archivo": "index.html"
+      "archivo": "index.html",
+      "nombre_en": "Home"
     },
     {
       "nombre": "Reel AI",
-      "archivo": "reel-ai.html"
+      "archivo": "reel-ai.html",
+      "nombre_en": "AI Reel"
     },
     {
       "nombre": "Ficción",
-      "archivo": "ficcion.html"
+      "archivo": "ficcion.html",
+      "nombre_en": "Fiction"
     },
     {
       "nombre": "Publicidad",
-      "archivo": "publicidad.html"
+      "archivo": "publicidad.html",
+      "nombre_en": "Commercials"
     },
     {
       "nombre": "Sobre mi",
-      "archivo": "sobre-mi.html"
+      "archivo": "sobre-mi.html",
+      "nombre_en": "About"
     }
   ],
   "home": {
@@ -41,19 +49,23 @@
     "menu": [
       {
         "nombre": "Ficción",
-        "archivo": "ficcion.html"
+        "archivo": "ficcion.html",
+        "nombre_en": "Fiction"
       },
       {
         "nombre": "Publicidad",
-        "archivo": "publicidad.html"
+        "archivo": "publicidad.html",
+        "nombre_en": "Commercials"
       },
       {
         "nombre": "Reel AI",
-        "archivo": "reel-ai.html"
+        "archivo": "reel-ai.html",
+        "nombre_en": "AI Reel"
       },
       {
         "nombre": "Sobre mi",
-        "archivo": "sobre-mi.html"
+        "archivo": "sobre-mi.html",
+        "nombre_en": "About"
       }
     ]
   },
@@ -64,64 +76,75 @@
         "titulo": "Retratos del Apocalipsis",
         "rol": "Director / Editor",
         "texto": "Largometraje de terror escrito, dirigido y producido por Luca Castello, junto a Fabián Forte y Nicanor Loreti. Seleccionado en Mórbido (México), Mar del Plata (Argentina), Fantaspoa (Brasil) y Curtas (España) entre otros. Ganó Mejor Película Internacional en el Medellín Horror Fest (Colombia). Reúne relatos apocalípticos marcados por el fanatismo, la violencia y lo sobrenatural. Actualmente en etapa de distribución internacional.",
-        "youtube": "0_RjrrUnAbo"
+        "youtube": "0_RjrrUnAbo",
+        "texto_en": "Horror feature written, directed and produced by Luca Castello together with Fabián Forte and Nicanor Loreti. Official selection at Mórbido (Mexico), Mar del Plata (Argentina), Fantaspoa (Brazil) and Curtas (Spain), among others, and winner of Best International Feature at the Medellín Horror Fest (Colombia). An anthology of apocalyptic stories driven by fanaticism, violence and the supernatural. Currently in international distribution."
       },
       {
         "titulo": "Corporea",
         "rol": "Editor",
         "texto": "Largometraje dirigido por Cristian Bidone. Explora los límites entre percepción y realidad a través de una narrativa inquietante y estilizada. Ganó Mejor Largometraje Internacional en el Apulia Horror Festival (Italia). Formó parte de la programación del CIMIFF (México), Terror Córdoba (Argentina) y el ETREUM Horror Film Fest (Colombia).",
-        "youtube": "-l-UDO1hm4k"
+        "youtube": "-l-UDO1hm4k",
+        "texto_en": "Feature film directed by Cristian Bidone. An unsettling, stylized story that blurs the line between perception and reality. Winner of Best International Feature at the Apulia Horror Festival (Italy), with screenings at CIMIFF (Mexico), Terror Córdoba (Argentina) and the ETREUM Horror Film Fest (Colombia)."
       },
       {
         "titulo": "La Piel No Es Un Límite",
         "rol": "Director / Editor",
         "texto": "Cortometraje estrenado en la competencia internacional del Festival Macabro Finch, en la ciudad de México. Participó en la competencia de veinte Festivales Internacionales. Ganador del premio a mejor cortometraje Internacional en el Festival 7eme Aaaargh de Bélgica.",
-        "youtube": "VQoaKLjpS24"
+        "youtube": "VQoaKLjpS24",
+        "texto_en": "Short film that premiered in the international competition of the Macabro Finch Festival in Mexico City. It went on to compete at twenty international festivals and won Best International Short at the 7ème Aaaargh Festival in Belgium."
       },
       {
         "titulo": "El Ritual del Nahual",
         "rol": "Supervisor de Edición",
         "texto": "Largometraje de terror dirigido por Carlos Matienzo Serment. Tuvo su estreno internacional en el Festival Internacional de Cine de Rotterdam y formó parte del Blood Window Showcase en el Marché du Film de Cannes. Se estrenó en más de 500 salas de México en mayo de 2026.",
-        "youtube": "960_Z1_Ds1c"
+        "youtube": "960_Z1_Ds1c",
+        "texto_en": "Horror feature directed by Carlos Matienzo Serment. It had its international premiere at the International Film Festival Rotterdam and was part of the Blood Window Showcase at the Cannes Marché du Film. Released in more than 500 theaters across Mexico in May 2026."
       },
       {
         "titulo": "El Amigo Visible",
         "rol": "Editor",
         "texto": "Largometraje dirigido por Cristian Bidone. Seleccionada en más de 45 festivales nacionales e internacionales. Ganadora de Mejor película Internacional en el \"Abbey Film Festival\", Mejor Thriller en \"Accord Cine Fest\" y Mejor Film de Horror en \"Dark Soul Fest\".",
-        "youtube": "aB-poZMg1K8"
+        "youtube": "aB-poZMg1K8",
+        "texto_en": "Feature film directed by Cristian Bidone. Selected at more than 45 festivals in Argentina and abroad, winning Best International Film at the Abbey Film Festival, Best Thriller at Accord Cine Fest and Best Horror Film at Dark Soul Fest."
       },
       {
         "titulo": "El Hombre de la Luna",
         "rol": "Editor",
         "texto": "Largometraje dirigido por Rodrigo Pérez Green, protagonizado por los hermanos Manuel y Rodrigo De La Serna. Seleccionado en la Competencia Argentina del 40° Festival Internacional de Cine de Mar del Plata (2025).",
-        "youtube": "HSEX3iPD9PM"
+        "youtube": "HSEX3iPD9PM",
+        "texto_en": "Feature film directed by Rodrigo Pérez Green, starring brothers Manuel and Rodrigo De La Serna. Selected for the Argentine Competition at the 40th Mar del Plata International Film Festival (2025)."
       },
       {
         "titulo": "Román",
         "rol": "Editor",
         "texto": "Largometraje dirigido por Majo Staffolani, estrenada en la competencia latinoamericana del “BAFICI”. Proyectada en la competencia de más de 40 festivales. Premio del Público a la Mejor Película en el 33º BFI FLARE London LGBTQ+ Film Festival.",
-        "youtube": "b_QnMcNnVfM"
+        "youtube": "b_QnMcNnVfM",
+        "texto_en": "Feature film directed by Majo Staffolani. It premiered in the Latin American competition at BAFICI and went on to screen in competition at more than 40 festivals, winning the Audience Award for Best Feature at the 33rd BFI Flare London LGBTQ+ Film Festival."
       },
       {
         "titulo": "La Amante",
         "rol": "Director /Editor",
         "texto": "Cortometraje seleccionado en siete festivales internacionales, entre ellos el Festival Diorama de la India, el Penitente Film Fest de Colombia y el Festival The Paus Premieres de Reino Unido.",
-        "youtube": "21JYPJDXA1I"
+        "youtube": "21JYPJDXA1I",
+        "texto_en": "Short film selected at seven international festivals, including the Diorama Film Festival (India), the Penitente Film Fest (Colombia) and The Paus Premieres (United Kingdom)."
       },
       {
         "titulo": "Golondrinas",
         "rol": "Editor de Trailer",
         "texto": "Película dirigida por Mariano Mouriño, producida pos SM CINE. Ganadora del concurso \"Opera Prima\" del INCAA y ganadora del premio principal en el Festival Construir Cine.",
-        "youtube": "JB52gbVbgmY"
+        "youtube": "JB52gbVbgmY",
+        "texto_en": "Feature film directed by Mariano Mouriño and produced by SM Cine. Winner of INCAA's Opera Prima competition and of the top prize at the Construir Cine Festival."
       },
       {
         "titulo": "Una noche de amor",
         "rol": "Compositor de VFX",
         "texto": "Película producida por Patagonik Film Group. Efectos visuales a cargo de la productora \"SinSistema\".",
-        "youtube": "lPJhrGVmaMg"
+        "youtube": "lPJhrGVmaMg",
+        "texto_en": "Feature film produced by Patagonik Film Group, with visual effects by SinSistema."
       }
     ],
-    "fondo": "fondo-ficcion.jpg"
+    "fondo": "fondo-ficcion.jpg",
+    "titulo_en": "Fiction"
   },
   "publicidad": {
     "titulo": "Cine\nPublicitario",
@@ -361,7 +384,8 @@
         "youtube": "2miO0XhLXU0"
       }
     ],
-    "fondo": "fondo-publicidad.jpg"
+    "fondo": "fondo-publicidad.jpg",
+    "titulo_en": "Commercials"
   },
   "reel-ai": {
     "titulo": "Reel AI",
@@ -372,7 +396,8 @@
         "texto": "",
         "mp4": "assets/video/reel-gelido-ai-2026.mp4",
         "poster": "assets/video/reel-gelido-ai-2026-v2.jpg",
-        "youtube": ""
+        "youtube": "",
+        "titulo_en": "Gélido AI Reel 2026"
       }
     ],
     "fondo": "fondo-ficcion.jpg",
@@ -383,13 +408,20 @@
       "link": {
         "texto": "gelidoai.com",
         "url": "https://gelidoai.com"
-      }
-    }
+      },
+      "rol_en": "AI creative studio · Buenos Aires · Mexico City · Barcelona",
+      "texto_en": "Today my work with artificial intelligence happens at Gélido, an independent, AI-native production company with offices in Argentina, Mexico and Spain. We make the ideas that usually never leave the deck.\nWe bring together AI image generation, a cinematic eye, visual direction, editing, sound and executive production to turn ideas into work that's ready to air: full commercials, mock-ups and animatics, music videos and social content.\nWe direct the models frame by frame, with intention. Every shot is designed, approved and animated with control over camera moves, timing and continuity. Everything is directed, nothing is left to chance.\nWe work with brands, agencies and artists such as Visa, Tupperware, Fiserv, MG, Domino's and Life Seguros. We're not here to replace creative teams, we're here to take them further. The tools have changed. The obsession with images that stay with you hasn't."
+    },
+    "titulo_en": "AI Reel",
+    "intro": "Una selección de las piezas que dirigí con inteligencia artificial para marcas, agencias y artistas: spots, videoclips y proyectos propios, hechos junto a Gélido AI.",
+    "intro_en": "A selection of work I've directed with artificial intelligence for brands, agencies and artists: commercials, music videos and personal projects, made together with Gélido AI."
   },
   "sobre-mi": {
     "titulo": "Sobre mi",
     "foto": "retrato.jpg",
     "texto": "Nací en la Patagonia Argentina. Hoy vivo y trabajo en Ciudad de México.\nMi pasión por narrar historias me llevó primero al montaje y, con el tiempo, a la dirección de mis propios proyectos.\nComo parte de mi recorrido como director, codirigí Retratos del Apocalipsis, mi primer largometraje. La película participó en festivales como Mar del Plata, Mórbido Film Fest, Fantaspoa y Buenos Aires Rojo Sangre, donde recibió distintos reconocimientos. Previamente, había dirigido tres cortometrajes, con los que fui construyendo una búsqueda autoral dentro del género fantástico y de terror.\nComo montajista, edité siete largometrajes de ficción. Entre ellos destaco Román, de Majo Staffolani, y El Amigo Visible, de Cristian Bidone, ambas seleccionadas en más de 30 festivales internacionales y ganadoras de numerosos premios. También trabajo en edición publicitaria, con proyectos como Liberá tu Frescura, de Topline; El amor después del amor, de Netflix; y Te simpliphilca la vida, de Philco, ganadora del Lápiz de Oro, el Jerry de Oro y el Martín Fierro a la Mejor Publicidad.\nActualmente me especializo en creación audiovisual con inteligencia artificial, integrando dirección, montaje, diseño visual y nuevos flujos de producción para cine, publicidad y contenidos digitales. Ese trabajo lo llevo adelante en Gélido AI, un estudio creativo de inteligencia artificial con sedes en Buenos Aires, Ciudad de México y Barcelona, con el que realizamos piezas para marcas como Visa, MG, Domino's y Fiserv.\nEn paralelo desarrollo AfterByte, mi próximo largometraje de terror. El proyecto ganó los premios de coproducción con Colombia y con España en el laboratorio de proyectos Fantasolab de Bogotá, y el premio Ventana Sur en la residencia de guion Feratum.",
-    "fondo": "fondo-sobremi.jpg"
+    "fondo": "fondo-sobremi.jpg",
+    "titulo_en": "About me",
+    "texto_en": "I was born in Argentine Patagonia. Today I live and work in Mexico City.\nMy love of storytelling led me first to editing and, over time, to directing my own projects.\nAs a director, I co-directed Retratos del Apocalipsis, my first feature. The film played festivals such as Mar del Plata, Mórbido Film Fest, Fantaspoa and Buenos Aires Rojo Sangre, where it picked up several awards. Before that I directed three short films, which shaped my own voice within fantasy and horror.\nAs an editor, I've cut seven fiction features, including Román by Majo Staffolani and El Amigo Visible by Cristian Bidone, both selected at more than 30 international festivals and winners of numerous awards. I also edit commercials, with work such as Topline's \"Liberá tu Frescura\", Netflix's \"El amor después del amor\" and Philco's \"Te simpliphilca la vida\", winner of the Lápiz de Oro, the Jerry de Oro and the Martín Fierro for Best Commercial.\nToday I specialize in AI-driven filmmaking, bringing together directing, editing, visual design and new production workflows for film, advertising and digital content. I do this work at Gélido AI, an AI creative studio based in Buenos Aires, Mexico City and Barcelona, where we've made work for brands like Visa, MG, Domino's and Fiserv.\nAlongside that, I'm developing AfterByte, my next horror feature. The project won the Colombia and Spain co-production awards at the Fantasolab project lab in Bogotá, and the Ventana Sur award at the Feratum screenwriting residency."
   }
 }

@@ -27,6 +27,15 @@ Visa y el Reel AI están alojados en el sitio, en `assets/video/`. Para sumar ot
 
 El texto de Gélido que va debajo del reel se edita en `contenido.json` → `reel-ai` → `info`.
 
+## Versión en inglés
+
+El sitio se genera en español y en inglés. Cada página tiene su par: `index.html` / `en.html`, `ficcion.html` / `fiction.html`, `publicidad.html` / `commercials.html`, `reel-ai.html` / `ai-reel.html`, `sobre-mi.html` / `about.html`. El selector **ES / EN** está arriba a la izquierda en las páginas internas y arriba a la derecha en la portada, y lleva a la misma página en el otro idioma.
+
+- Los textos en inglés van en campos que terminan en `_en`: `texto_en`, `rol_en`, `titulo_en`, `nombre_en`, `intro_en`. Si falta uno, se muestra el español.
+- En **Publicidad** no hace falta escribir nada en inglés: los créditos (`Agencia`, `Productora`, `Dirección`, `Cliente`, `Premios`) y los roles se traducen solos. Los títulos de campaña quedan en su idioma original.
+- En **Ficción**, al sumar una obra nueva conviene agregarle `texto_en` escrito en inglés natural (no traducido palabra por palabra).
+- El texto corto que aparece arriba del reel es `reel-ai` → `intro` / `intro_en`.
+
 ## Estructura
 
 | Archivo | Qué es |
