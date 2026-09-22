@@ -217,6 +217,19 @@ def pagina(archivo_es, lang, titulo, cuerpo, descripcion=None, imagen_og="assets
             f'<link rel="alternate" hreflang="x-default" href="{e(url_de(archivo_es))}">\n'
         )
     locale = "es_AR" if lang == "es" else "en_US"
+    datos = ""
+    if archivo_es in ("index.html", "sobre-mi.html"):
+        persona = {
+            "@context": "https://schema.org", "@type": "Person", "name": SITIO["nombre"],
+            "jobTitle": "Editor / Director", "url": DOMINIO + "/",
+            "image": DOMINIO + "/assets/img/fondos/" + C["sobre-mi"]["foto"],
+            "email": "mailto:" + SITIO["email"],
+            "description": desc,
+            "address": {"@type": "PostalAddress", "addressLocality": "Ciudad de México", "addressCountry": "MX"},
+            "worksFor": {"@type": "Organization", "name": "Gélido AI", "url": "https://gelidoai.com"},
+            "knowsAbout": ["Montaje", "Dirección de cine", "Publicidad", "Cine de terror", "Inteligencia artificial"],
+        }
+        datos = '<script type="application/ld+json">' + json.dumps(persona, ensure_ascii=False) + "</script>" + chr(10)
     auto = ""
     if archivo_es in EN:
         auto = AUTO_JS.replace("__ES__", archivo_es).replace("__EN__", EN[archivo_es]).replace("__YO__", lang) + chr(10)
@@ -242,7 +255,7 @@ def pagina(archivo_es, lang, titulo, cuerpo, descripcion=None, imagen_og="assets
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Arimo&family=Cairo&family=Raleway:wght@100;400&display=swap" rel="stylesheet">
-{pre}<link rel="stylesheet" href="assets/css/site.css?v={VERSION}">
+{pre}{datos}<link rel="stylesheet" href="assets/css/site.css?v={VERSION}">
 </head>
 <body>
 {cuerpo}
@@ -287,8 +300,8 @@ META = {
         "en": ("AI Reel", "Luca Castello's reel of AI-driven filmmaking."),
     },
     "sobre-mi.html": {
-        "es": ("Sobre mí", None),
-        "en": ("About", None),
+        "es": ("Sobre mí", "Luca Castello, editor y director nacido en la Patagonia argentina y radicado en Ciudad de México. Montaje de largometrajes y publicidad, dirección y creación audiovisual con IA en Gélido AI."),
+        "en": ("About", "Luca Castello, a film editor and director from Argentine Patagonia based in Mexico City. Feature and commercial editing, directing and AI-driven filmmaking at Gélido AI."),
     },
 }
 
