@@ -228,6 +228,12 @@ def pagina(archivo_es, lang, titulo, cuerpo, descripcion=None, imagen_og="assets
             "address": {"@type": "PostalAddress", "addressLocality": "Ciudad de México", "addressCountry": "MX"},
             "worksFor": {"@type": "Organization", "name": "Gélido AI", "url": "https://gelidoai.com"},
             "knowsAbout": ["Montaje", "Dirección de cine", "Publicidad", "Cine de terror", "Inteligencia artificial"],
+            "sameAs": [
+                "https://www.imdb.com/name/nm9730734/",
+                "https://www.linkedin.com/in/luca-castello-/",
+                "https://www.instagram.com/luca_castello_/",
+                "https://letterboxd.com/director/luca-castello/",
+            ],
         }
         datos = '<script type="application/ld+json">' + json.dumps(persona, ensure_ascii=False) + "</script>" + chr(10)
     auto = ""
