@@ -194,7 +194,7 @@ def obra(o, tipo, i, lang):
     )
     media = f'<div class="obra__media">{video(o, lang, "eager" if i < 2 else "lazy")}</div>'
     partes = panel + media if tipo == "ficcion" else media + panel
-    revela = " revela" if tipo == "publicidad" else ""  # solo Publicidad aparece al scrollear
+    revela = " revela" if tipo == "publicidad" else " revela-movil"  # Publicidad siempre; Ficción solo en celular
     return f'<article class="obra obra--{tipo}{revela}">{partes}</article>'
 
 

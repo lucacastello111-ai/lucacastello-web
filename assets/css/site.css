@@ -211,3 +211,12 @@ a.pie__item:hover{opacity:.7}
 @media (max-width:760px){
   .nav .salto{display:block;flex-basis:100%;height:0;margin:0;padding:0}
 }
+
+/* ---------- Ficción: en celular las obras también aparecen al scrollear ---------- */
+@media (max-width:760px){
+  .js .revela-movil{opacity:0;transform:translateY(40px);transition:opacity .9s ease,transform .9s cubic-bezier(.16,1,.3,1)}
+  .js .revela-movil.visible{opacity:1;transform:none}
+}
+@media (max-width:760px) and (prefers-reduced-motion:reduce){
+  .js .revela-movil{transform:none;transition:opacity .9s ease}
+}

@@ -78,7 +78,7 @@
   }
 
   /* ---------- las obras van apareciendo a medida que se scrollea ---------- */
-  var items = document.querySelectorAll(".revela");
+  var items = document.querySelectorAll(".revela, .revela-movil");
   if ("IntersectionObserver" in window) {
     var obs = new IntersectionObserver(function (entradas) {
       entradas.forEach(function (en) {

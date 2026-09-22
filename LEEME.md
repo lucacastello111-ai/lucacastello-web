@@ -57,7 +57,7 @@ El diseño es una copia del original (mismas tipografías, medidas, colores, fon
 
 - **Antes**: cada página cargaba todos los reproductores de YouTube a la vez y en loop (35 en Publicidad). Por eso se trababa.
 - **Ahora**: cada video muestra su carátula con el botón de play. Al hacer click se reproduce ahí mismo, en el mismo tamaño. Si abrís otro, el anterior vuelve a su carátula: nunca hay más de un reproductor cargado.
-- En Publicidad las obras van apareciendo a medida que se scrollea (en Ficción no, a pedido). Las carátulas se cargan recién cuando están por verse.
+- En Publicidad las obras van apareciendo a medida que se scrollea; en Ficción solo en celular (en computadora no, a pedido). Las carátulas se cargan recién cuando están por verse.
 - Imágenes propias y comprimidas (ya no dependen de los servidores de IM Creator).
 - Se adapta al celular: en pantallas chicas el video queda arriba y el texto abajo.
 - Email clickeable y teléfono que abre WhatsApp.
