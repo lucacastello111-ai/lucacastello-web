@@ -41,10 +41,10 @@
   ],
   "home": {
     "slides": [
-      "home-2.jpg",
-      "home-4.jpg",
-      "home-1.jpg",
-      "home-3.jpg"
+      "home-2-v2.jpg",
+      "home-4-v2.jpg",
+      "home-1-v2.jpg",
+      "home-3-v2.jpg"
     ],
     "menu": [
       {
@@ -145,7 +145,7 @@
         "texto_en": "Feature film produced by Patagonik Film Group, with visual effects by SinSistema."
       }
     ],
-    "fondo": "fondo-ficcion.jpg",
+    "fondo": "fondo-ficcion-v2.jpg",
     "titulo_en": "Fiction"
   },
   "publicidad": {
@@ -386,7 +386,7 @@
         "youtube": "2miO0XhLXU0"
       }
     ],
-    "fondo": "fondo-publicidad.jpg",
+    "fondo": "fondo-publicidad-v2.jpg",
     "titulo_en": "Commercials"
   },
   "reel-ai": {
@@ -402,7 +402,7 @@
         "titulo_en": "Gélido AI Reel 2026"
       }
     ],
-    "fondo": "fondo-ficcion.jpg",
+    "fondo": "fondo-ficcion-v2.jpg",
     "info": {
       "titulo": "Gélido AI",
       "rol": "Estudio creativo de IA · Buenos Aires · Ciudad de México · Barcelona",
@@ -422,7 +422,7 @@
     "titulo": "Sobre mi",
     "foto": "retrato.jpg",
     "texto": "Nací en la Patagonia Argentina. Hoy vivo y trabajo en Ciudad de México.\nMi pasión por narrar historias me llevó primero al montaje y, con el tiempo, a la dirección de mis propios proyectos.\nComo parte de mi recorrido como director, codirigí Retratos del Apocalipsis, mi primer largometraje. La película participó en festivales como Mar del Plata, Mórbido Film Fest, Fantaspoa y Buenos Aires Rojo Sangre, donde recibió distintos reconocimientos.\nComo montajista edité siete largometrajes, entre ellos Román, de Majo Staffolani, y El Amigo Visible, de Cristian Bidone, ambos premiados y seleccionados en más de 30 festivales internacionales. En publicidad edité campañas para Topline, Netflix y Philco, esta última ganadora del Lápiz de Oro, el Diente de Oro, el Jerry de Oro y el Martín Fierro.\nHoy me especializo en creación audiovisual con inteligencia artificial, uniendo dirección, montaje y diseño visual. Lo hago en Gélido AI, un estudio creativo con sedes en Buenos Aires, Ciudad de México y Barcelona, donde realizamos piezas para Visa, MG, Domino's y Fiserv.\nEn paralelo desarrollo AfterByte, mi próximo largometraje de terror. El proyecto ganó los premios de coproducción con Colombia y con España en el laboratorio de proyectos Fantasolab de Bogotá, y el premio Ventana Sur en la residencia de guion Feratum.",
-    "fondo": "fondo-sobremi-patagonia-v2.jpg",
+    "fondo": "fondo-sobremi-patagonia-v3.jpg",
     "titulo_en": "About me",
     "texto_en": "I was born in Argentine Patagonia. Today I live and work in Mexico City.\nMy love of storytelling led me first to editing and, over time, to directing my own projects.\nAs a director, I co-directed Retratos del Apocalipsis, my first feature. The film played festivals such as Mar del Plata, Mórbido Film Fest, Fantaspoa and Buenos Aires Rojo Sangre, where it picked up several awards.\nAs an editor I've cut seven features, including Román by Majo Staffolani and El Amigo Visible by Cristian Bidone, both award winners selected at more than 30 international festivals. In advertising I've edited campaigns for Topline, Netflix and Philco, the latter winning the Lápiz de Oro, the Diente de Oro, the Jerry de Oro and the Martín Fierro.\nToday I specialize in AI-driven filmmaking, bringing together directing, editing and visual design. I do it at Gélido AI, a creative studio based in Buenos Aires, Mexico City and Barcelona, where we've made work for Visa, MG, Domino's and Fiserv.\nAlongside that, I'm developing AfterByte, my next horror feature. The project won the Colombia and Spain co-production awards at the Fantasolab project lab in Bogotá, and the Ventana Sur award at the Feratum screenwriting residency."
   }

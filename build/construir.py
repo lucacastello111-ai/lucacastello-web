@@ -299,7 +299,7 @@ H, F, P, R, S = C["home"], C["ficcion"], C["publicidad"], C["reel-ai"], C["sobre
 for lang in ("es", "en"):
     # PORTADA
     imgs = "".join(
-        f'<img src="assets/img/fondos/{s}" alt=""' + (' fetchpriority="high"' if i == 0 else "") + ">"
+        f'<img src="assets/img/fondos/{s}" alt=""' + (' fetchpriority="high"' if i == 0 else ' fetchpriority="low" decoding="async"') + ">"
         for i, s in enumerate(H["slides"])
     )
     puntos = "".join(
