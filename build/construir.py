@@ -225,6 +225,7 @@ def pagina(archivo_es, lang, titulo, cuerpo, descripcion=None, imagen_og="assets
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script>document.documentElement.classList.add("js")</script>
 {auto}<title>{e(titulo_full)}</title>
 <meta name="description" content="{e(desc)}">
 <meta name="keywords" content="Luca Castello, editor, montajista, director, Argentina, México, publicidad, películas, cine, film editor, commercials">
