@@ -221,7 +221,7 @@ def pagina(archivo_es, lang, titulo, cuerpo, descripcion=None, imagen_og="assets
     if archivo_es in ("index.html", "sobre-mi.html"):
         persona = {
             "@context": "https://schema.org", "@type": "Person", "name": SITIO["nombre"],
-            "jobTitle": "Editor / Director", "url": DOMINIO + "/",
+            "jobTitle": SITIO["rol"], "url": DOMINIO + "/",
             "image": DOMINIO + "/assets/img/fondos/" + C["sobre-mi"]["foto"],
             "email": "mailto:" + SITIO["email"],
             "description": desc,
@@ -306,8 +306,8 @@ META = {
         "en": ("AI Reel", "Luca Castello's reel of AI-driven filmmaking."),
     },
     "sobre-mi.html": {
-        "es": ("Sobre mí", "Luca Castello, editor y director nacido en la Patagonia argentina y radicado en Ciudad de México. Montaje de largometrajes y publicidad, dirección y creación audiovisual con IA en Gélido AI."),
-        "en": ("About", "Luca Castello, a film editor and director from Argentine Patagonia based in Mexico City. Feature and commercial editing, directing and AI-driven filmmaking at Gélido AI."),
+        "es": ("Sobre mí", "Luca Castello, director y editor nacido en la Patagonia argentina y radicado en Ciudad de México. Montaje de largometrajes y publicidad, dirección y creación audiovisual con IA en Gélido AI."),
+        "en": ("About", "Luca Castello, a director and film editor from Argentine Patagonia based in Mexico City. Feature and commercial editing, directing and AI-driven filmmaking at Gélido AI."),
     },
 }
 

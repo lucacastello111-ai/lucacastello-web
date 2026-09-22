@@ -2,14 +2,14 @@
   "_leeme": "Este archivo es el contenido de la web. Edita los textos aqui y corre construir.bat.",
   "sitio": {
     "nombre": "Luca Castello",
-    "rol": "Editor / Director",
+    "rol": "Director / Editor",
     "dominio": "https://lucacastello.com",
-    "descripcion": "Reel de Luca Castello, editor y director. Cine publicitario, largometrajes y contenido generado con IA. Ciudad de México / Buenos Aires.",
+    "descripcion": "Reel de Luca Castello, director y editor. Cine publicitario, largometrajes y contenido generado con IA. Ciudad de México / Buenos Aires.",
     "email": "lucacastello93@gmail.com",
     "telefono": "(+54)1159594094",
     "ubicacion": "Ciudad de México / Buenos Aires",
-    "rol_en": "Editor / Director",
-    "descripcion_en": "Luca Castello, film editor and director. Commercials, feature films and AI-driven work. Mexico City / Buenos Aires.",
+    "rol_en": "Director / Editor",
+    "descripcion_en": "Luca Castello, director and film editor. Commercials, feature films and AI-driven work. Mexico City / Buenos Aires.",
     "ubicacion_en": "Mexico City / Buenos Aires"
   },
   "menu": [
