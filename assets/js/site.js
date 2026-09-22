@@ -62,6 +62,7 @@
     var ir = function (n) {
       i = (n + total) % total;
       pista.style.transform = "translateX(" + (-100 * i) + "%)";
+      for (var k = 0; k < total; k++) pista.children[k].classList.toggle("activo", k === i);
       puntos.forEach(function (b, k) { b.classList.toggle("activo", k === i); });
     };
     var arrancar = function () {
@@ -72,6 +73,7 @@
     document.addEventListener("visibilitychange", function () {
       if (document.hidden) clearInterval(reloj); else arrancar();
     });
+    ir(0);
     arrancar();
   }
 

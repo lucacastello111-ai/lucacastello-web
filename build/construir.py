@@ -135,9 +135,9 @@ def selector(archivo_es, lang):
 
 
 def nav(archivo_es, lang):
-    links = "".join(
-        f'<li><a href="{archivo_de(m["archivo"], lang)}">{e(t(m, "nombre", lang))}</a></li>' for m in C["menu"]
-    )
+    items = [f'<li><a href="{archivo_de(m["archivo"], lang)}">{e(t(m, "nombre", lang))}</a></li>' for m in C["menu"]]
+    items.insert(3, '<li class="salto" aria-hidden="true"></li>')  # en celular corta el menu en 3 + 2
+    links = "".join(items)
     return (
         '<header class="nav"><div class="contenedor">'
         f"{selector(archivo_es, lang)}<ul>{links}</ul></div></header>"
@@ -299,7 +299,7 @@ H, F, P, R, S = C["home"], C["ficcion"], C["publicidad"], C["reel-ai"], C["sobre
 for lang in ("es", "en"):
     # PORTADA
     imgs = "".join(
-        f'<img src="assets/img/fondos/{s}" alt=""' + (' fetchpriority="high"' if i == 0 else ' fetchpriority="low" decoding="async"') + ">"
+        f'<img src="assets/img/fondos/{s}" alt=""' + (' class="activo" fetchpriority="high"' if i == 0 else ' fetchpriority="low" decoding="async"') + ">"
         for i, s in enumerate(H["slides"])
     )
     puntos = "".join(
