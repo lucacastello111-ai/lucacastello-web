@@ -115,7 +115,7 @@ def video(obra, lang, cargar="lazy"):
     return (
         f'<div class="video" role="button" tabindex="0" {fuente} '
         f'data-titulo="{e(titulo)}" aria-label="{UI[lang]["play"]} {e(titulo or "video")}">'
-        f'<img src="{caratula}" alt="{e(titulo)}" loading="{cargar}" decoding="async" width="1280" height="720">'
+        f'<img src="{caratula}" alt="{e(titulo)} · Luca Castello" loading="{cargar}" decoding="async" width="1280" height="720">'
         f'<span class="video__play">{PLAY_SVG}</span></div>'
     )
 
@@ -202,10 +202,10 @@ def url_de(archivo):
     return DOMINIO + "/" + ("" if archivo == "index.html" else archivo)
 
 
-def pagina(archivo_es, lang, titulo, cuerpo, descripcion=None, imagen_og="assets/img/fondos/home-2.jpg", precargar=None):
+def pagina(archivo_es, lang, titulo, cuerpo, descripcion=None, imagen_og="assets/img/fondos/home-2.jpg", precargar=None, datos_extra=""):
     archivo = archivo_de(archivo_es, lang)
     rol = t(SITIO, "rol", lang)
-    titulo_full = f"{titulo} - {SITIO['nombre']}" if titulo else f"{SITIO['nombre']} - {rol}"
+    titulo_full = TITULOS.get(archivo_es, {}).get(lang) or (f"{titulo} - {SITIO['nombre']}" if titulo else f"{SITIO['nombre']} - {rol}")
     desc = descripcion or t(SITIO, "descripcion", lang)
     url = url_de(archivo)
     pre = f'<link rel="preload" as="image" href="{precargar}">\n' if precargar else ""
@@ -227,12 +227,18 @@ def pagina(archivo_es, lang, titulo, cuerpo, descripcion=None, imagen_og="assets
             "description": desc,
             "address": {"@type": "PostalAddress", "addressLocality": "Ciudad de México", "addressCountry": "MX"},
             "worksFor": {"@type": "Organization", "name": "Gélido AI", "url": "https://gelidoai.com"},
-            "knowsAbout": ["Montaje", "Dirección de cine", "Publicidad", "Cine de terror", "Inteligencia artificial"],
+            "knowsAbout": ["Montaje", "Dirección de cine", "Cine de terror argentino", "Cine publicitario",
+                           "Dirección con inteligencia artificial", "Postproducción", "Animatics"],
+            "birthPlace": {"@type": "Place", "name": "Chubut, Patagonia, Argentina"},
+            "nationality": {"@type": "Country", "name": "Argentina"},
+            "hasOccupation": [{"@type": "Occupation", "name": "Director de cine"},
+                              {"@type": "Occupation", "name": "Editor de cine"}],
             "sameAs": [
                 "https://www.imdb.com/name/nm9730734/",
                 "https://www.linkedin.com/in/luca-castello-/",
                 "https://www.instagram.com/luca_castello_/",
                 "https://letterboxd.com/director/luca-castello/",
+                "https://www.themoviedb.org/person/2265214-luca-castello",
             ],
         }
         datos = '<script type="application/ld+json">' + json.dumps(persona, ensure_ascii=False) + "</script>" + chr(10)
@@ -247,7 +253,7 @@ def pagina(archivo_es, lang, titulo, cuerpo, descripcion=None, imagen_og="assets
 <script>document.documentElement.classList.add("js")</script>
 {auto}<title>{e(titulo_full)}</title>
 <meta name="description" content="{e(desc)}">
-<meta name="keywords" content="Luca Castello, editor, montajista, director, Argentina, México, publicidad, películas, cine, film editor, commercials">
+<meta name="keywords" content="{e(KEYWORDS[lang])}">
 <link rel="canonical" href="{e(url)}">
 {alternos}<meta property="og:type" content="website">
 <meta property="og:locale" content="{locale}">
@@ -261,7 +267,7 @@ def pagina(archivo_es, lang, titulo, cuerpo, descripcion=None, imagen_og="assets
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Arimo&family=Cairo&family=Raleway:wght@100;400&display=swap" rel="stylesheet">
-{pre}{datos}<link rel="stylesheet" href="assets/css/site.css?v={VERSION}">
+{pre}{datos}{datos_extra}<link rel="stylesheet" href="assets/css/site.css?v={VERSION}">
 </head>
 <body>
 {cuerpo}
@@ -290,6 +296,77 @@ AUTO_JS = (
     'g=(h.test(tz)||n.indexOf("es")===0)?"es":"en"}'
     'if(g!==yo)location.replace(par[g]+location.search+location.hash)})();</script>'
 )
+
+# ---------------------------------------------------------------- SEO
+# titulo de pestaña con palabras clave (lo que mas pesa en Google)
+TITULOS = {
+    "index.html": {"es": "Luca Castello | Director y editor de cine, publicidad e IA",
+                   "en": "Luca Castello | Film director and editor, commercials and AI"},
+    "ficcion.html": {"es": "Ficción | Luca Castello, director y editor de cine",
+                     "en": "Fiction | Luca Castello, film director and editor"},
+    "publicidad.html": {"es": "Publicidad | Luca Castello, editor de cine publicitario",
+                        "en": "Commercials | Luca Castello, commercial film editor"},
+    "reel-ai.html": {"es": "Reel AI | Luca Castello, dirección audiovisual con IA",
+                     "en": "AI Reel | Luca Castello, AI filmmaking"},
+    "sobre-mi.html": {"es": "Sobre mí | Luca Castello, director y editor",
+                      "en": "About | Luca Castello, director and editor"},
+}
+KEYWORDS = {
+    "es": "Luca Castello, director de cine, editor de cine, montajista, montaje, cine de terror argentino, "
+          "Retratos del Apocalipsis, Gélido AI, dirección con inteligencia artificial, cine publicitario, "
+          "editor de publicidad, Ciudad de México, Buenos Aires, Chubut, Patagonia",
+    "en": "Luca Castello, film director, film editor, Argentine horror film, Retratos del Apocalipsis, "
+          "Gélido AI, AI filmmaking, AI director, commercial editor, Mexico City, Buenos Aires",
+}
+LUCA = {"@type": "Person", "name": "Luca Castello", "url": "https://lucacastello.com/"}
+# directores de cada película (para vincular a Luca con sus colaboradores)
+DIRECTORES = {
+    "Retratos del Apocalipsis": ["Luca Castello", "Fabián Forte", "Nicanor Loreti"],
+    "Corporea": ["Cristian Bidone"],
+    "La Piel No Es Un Límite": ["Luca Castello"],
+    "El Ritual del Nahual": ["Carlos Matienzo Serment"],
+    "El Amigo Visible": ["Cristian Bidone"],
+    "El Hombre de la Luna": ["Rodrigo Pérez Green"],
+    "Román": ["Majo Staffolani"],
+    "La Amante": ["Luca Castello"],
+    "Golondrinas": ["Mariano Mouriño"],
+}
+
+
+def ld(dato):
+    return '<script type="application/ld+json">' + json.dumps(dato, ensure_ascii=False) + "</script>" + chr(10)
+
+
+def ld_ficcion(lang):
+    items = []
+    for n, o in enumerate(C["ficcion"]["obras"], 1):
+        peli = {"@type": "Movie", "name": o["titulo"], "description": t(o, "texto", lang),
+                "image": DOMINIO + "/" + (o.get("poster") or thumb(o["youtube"]))}
+        if o.get("youtube"):
+            peli["sameAs"] = "https://www.youtube.com/watch?v=" + o["youtube"]
+        dirs = DIRECTORES.get(o["titulo"])
+        if dirs:
+            peli["director"] = [LUCA if d == "Luca Castello" else {"@type": "Person", "name": d} for d in dirs]
+        rol = o["rol"].lower()
+        if "editor" in rol or "edición" in rol:
+            peli["editor"] = LUCA
+        elif "director" not in rol:
+            peli["contributor"] = LUCA
+        items.append({"@type": "ListItem", "position": n, "item": peli})
+    return ld({"@context": "https://schema.org", "@type": "ItemList", "itemListElement": items})
+
+
+def ld_reel(lang):
+    salida = ""
+    for o in C["reel-ai"]["obras"]:
+        if o.get("mp4"):
+            salida += ld({"@context": "https://schema.org", "@type": "VideoObject",
+                          "name": t(o, "titulo", lang), "description": t(C["reel-ai"], "intro", lang),
+                          "thumbnailUrl": DOMINIO + "/" + o["poster"], "contentUrl": DOMINIO + "/" + o["mp4"],
+                          "uploadDate": "2026-08-24", "creator": LUCA,
+                          "productionCompany": {"@type": "Organization", "name": "Gélido AI", "url": "https://gelidoai.com/"}})
+    return salida
+
 
 # titulos de pestaña y descripciones de cada pagina
 META = {
@@ -346,7 +423,7 @@ for lang in ("es", "en"):
     urls.append(pagina(
         "ficcion.html", lang, titulo,
         nav("ficcion.html", lang) + titulo_seccion(t(F, "titulo", lang)) + franja(cuerpo, F["fondo"]) + pie(lang),
-        descripcion=desc,
+        descripcion=desc, datos_extra=ld_ficcion(lang),
     ))
 
     # PUBLICIDAD
@@ -384,7 +461,7 @@ for lang in ("es", "en"):
     urls.append(pagina(
         "reel-ai.html", lang, titulo,
         nav("reel-ai.html", lang) + titulo_seccion(t(R, "titulo", lang)) + franja(cuerpo, R["fondo"]) + pie(lang),
-        descripcion=desc,
+        descripcion=desc, datos_extra=ld_reel(lang),
     ))
 
     # SOBRE MI
